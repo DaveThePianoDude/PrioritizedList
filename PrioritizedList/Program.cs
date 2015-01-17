@@ -71,7 +71,7 @@ namespace PrioritizedList
 
                 if (currLevel < prevLevel)
                 {
-
+                    elements.Pop();
                 }
 
                 outputFile.WriteLine(indent+"<action name = \"" + line + "\" >");
