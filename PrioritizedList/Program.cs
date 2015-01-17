@@ -34,7 +34,7 @@ namespace PrioritizedList
 
             outputFile.WriteLine("<action name=\"The main heading\" >");
 
-            int oldLevel = 0;
+            int prevLevel = 0;
             int newLevel = 0;
 
             while ((line = file.ReadLine()) != null)
@@ -70,10 +70,10 @@ namespace PrioritizedList
                 }
                 outputFile.WriteLine(indent+"<action name = \"" + line + "\" >");
 
-                if (newLevel <= oldLevel)
+                if (newLevel <= prevLevel)
                     outputFile.WriteLine(indent + "</action>");
 
-                oldLevel = newLevel;
+                prevLevel = newLevel;
 
                 counter++;
             }
