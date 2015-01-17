@@ -1,0 +1,6 @@
+c:\users\hollandd\documents\visual studio 2013\Projects\PrioritizedList\PrioritizedList\bin\Debug\PrioritizedList.exe.config
+c:\users\hollandd\documents\visual studio 2013\Projects\PrioritizedList\PrioritizedList\bin\Debug\PrioritizedList.exe
+c:\users\hollandd\documents\visual studio 2013\Projects\PrioritizedList\PrioritizedList\bin\Debug\PrioritizedList.pdb
+c:\users\hollandd\documents\visual studio 2013\Projects\PrioritizedList\PrioritizedList\obj\Debug\PrioritizedList.exe
+c:\users\hollandd\documents\visual studio 2013\Projects\PrioritizedList\PrioritizedList\obj\Debug\PrioritizedList.pdb
+c:\users\hollandd\documents\visual studio 2013\Projects\PrioritizedList\PrioritizedList\obj\Debug\PrioritizedList.csprojResolveAssemblyReference.cache
