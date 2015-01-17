@@ -35,7 +35,7 @@ namespace PrioritizedList
             outputFile.WriteLine("<action name=\"The main heading\" >");
 
             int prevLevel = 0;
-            int newLevel = 0;
+            int currLevel = 0;
 
             while ((line = file.ReadLine()) != null)
             {
@@ -48,32 +48,35 @@ namespace PrioritizedList
                 if (toke.Substring(0, 1).Equals("I"))
                 {
                     indent += "\t";
-                    newLevel = 1;
+                    currLevel = 1;
                     
                 }
                 else if (Char.IsDigit(Convert.ToChar(toke.Substring(0, 1))))
                 {
                     indent += "\t\t\t";
-                    newLevel = 3;
+                    currLevel = 3;
                     
                 }
                 else if (toke.Substring(0, 1).Equals("i"))
                 {
                     indent += "\t\t\t\t";
-                    newLevel = 4;
+                    currLevel = 4;
                 }
                 else
                 {
                     indent += "\t\t";
-                    newLevel = 2;
+                    currLevel = 2;
                     
                 }
+
+
+
                 outputFile.WriteLine(indent+"<action name = \"" + line + "\" >");
 
-                if (newLevel <= prevLevel)
+                if (currLevel <= prevLevel)
                     outputFile.WriteLine(indent + "</action>");
 
-                prevLevel = newLevel;
+                prevLevel = currLevel;
 
                 counter++;
             }
