@@ -13,7 +13,7 @@ namespace PrioritizedList
     {
         static void Main(string[] args)
         {
-           // ConvertOutlineToXml("outline.txt", "Actions.xml");
+           ConvertOutlineToXml("outline.txt", "Actions.xml");
 
             TransformXML("Actions.xml", "Stylesheet.xslt");
         }
