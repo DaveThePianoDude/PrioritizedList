@@ -69,7 +69,10 @@ namespace PrioritizedList
                     
                 }
 
+                if (currLevel < prevLevel)
+                {
 
+                }
 
                 outputFile.WriteLine(indent+"<action name = \"" + line + "\" >");
 
