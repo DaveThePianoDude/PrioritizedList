@@ -1,0 +1,10 @@
+I. This is a heading
+	A. This also
+		1. This too
+			i. small entry
+			ii. smaller
+			iii. smallest
+		2.  This too baby.
+	B.  Second line.
+	C. Third
+II. Finally
