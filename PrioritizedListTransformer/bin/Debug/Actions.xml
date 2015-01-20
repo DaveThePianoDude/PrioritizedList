@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action name="The main heading" >
+	<action name = "I. This is a heading" >
+		<action name = "	A. This also" >
+			<action name = "		1. This too" >
+				<action name = "			i. small entry" >
+				</action>
+				<action name = "			ii. smaller" >
+				</action>
+				<action name = "			iii. smallest" >
+				</action>
+			</action>
+			<action name = "		2.  This too baby." >
+			</action>
+		</action>
+		<action name = "	B.  Second line." >
+			<action name = "		1. One" >
+			</action>
+			<action name = "		2. Two" >
+				<action name = "			i. Nice" >
+				</action>
+				<action name = "			ii. Nicer!" >
+				</action>
+			</action>
+			<action name = "		3. Three" >
+			</action>
+			<action name = "		4. Four" >
+			</action>
+		</action>
+		<action name = "	C. Third" >
+		</action>
+	</action>
+	<action name = "II. Finally" >
+		<action name = "	A. Once" >
+			<action name = "		1. Hey" >
+			</action>
+			<action name = "		2. Man" >
+			</action>
+		</action>
+		<action name = "	B. Twice" >
+			<action name = "		1. Rock" >
+			</action>
+			<action name = "		2. And" >
+			</action>
+			<action name = "		3. Roll!" >
+		</action>
+		</action>
+		</action>
+</action>
