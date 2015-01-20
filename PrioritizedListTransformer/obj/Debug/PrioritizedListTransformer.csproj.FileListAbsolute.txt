@@ -4,3 +4,5 @@ C:\Users\david.holland\documents\visual studio 2013\Projects\PrioritizedListTran
 C:\Users\david.holland\documents\visual studio 2013\Projects\PrioritizedListTransformer\PrioritizedListTransformer\obj\Debug\PrioritizedListTransformer.exe
 C:\Users\david.holland\documents\visual studio 2013\Projects\PrioritizedListTransformer\PrioritizedListTransformer\obj\Debug\PrioritizedListTransformer.pdb
 C:\Users\david.holland\documents\visual studio 2013\Projects\PrioritizedListTransformer\PrioritizedListTransformer\obj\Debug\PrioritizedListTransformer.csprojResolveAssemblyReference.cache
+C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\PrioritizedListTransformer\bin\Debug\WatiN.Core.dll
+C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\PrioritizedListTransformer\bin\Debug\WatiN.Core.xml
