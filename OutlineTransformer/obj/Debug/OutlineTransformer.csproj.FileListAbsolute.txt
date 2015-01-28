@@ -1,5 +1,4 @@
 C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\OutlineTransformer\bin\Debug\OutlineTransformer.dll
 C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\OutlineTransformer\bin\Debug\OutlineTransformer.pdb
-C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\OutlineTransformer\obj\Debug\OutlineTransformer.csprojResolveAssemblyReference.cache
 C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\OutlineTransformer\obj\Debug\OutlineTransformer.dll
 C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\OutlineTransformer\obj\Debug\OutlineTransformer.pdb
