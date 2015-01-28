@@ -1,0 +1,9 @@
+C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\NUnitTesting\bin\Debug\NUnitTesting.dll
+C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\NUnitTesting\bin\Debug\NUnitTesting.pdb
+C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\NUnitTesting\bin\Debug\nunit.framework.dll
+C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\NUnitTesting\bin\Debug\OutlineTransformer.dll
+C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\NUnitTesting\bin\Debug\OutlineTransformer.pdb
+C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\NUnitTesting\bin\Debug\nunit.framework.xml
+C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\NUnitTesting\obj\Debug\NUnitTesting.csprojResolveAssemblyReference.cache
+C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\NUnitTesting\obj\Debug\NUnitTesting.dll
+C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\NUnitTesting\obj\Debug\NUnitTesting.pdb
