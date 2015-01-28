@@ -7,20 +7,29 @@ using System.Xml;
 using System.Xml.XPath;
 using System.Xml.Xsl;
 
-namespace PrioritizedList
+namespace PrioritizedListTransformer
 {
     class Program
     {
+        struct Action
+        {
+            public int Level;
+
+            public Action(int level)
+            {
+                Level = level;
+            }
+        };
+
         static void Main(string[] args)
         {
-           ConvertOutlineToXml("outline.txt", "Actions.xml");
-
-            TransformXML("Actions.xml", "Stylesheet.xslt");
+            ConvertOutlineToXml("outline.txt", "Actions.xml");
+            //TransformXML("Actions.xml", "Stylesheet.xslt");
         }
 
         public static void ConvertOutlineToXml(string input, string output)
         {
-            Stack<int> elements = new Stack<int>();
+            Stack<Action> elements = new Stack<Action>();
 
             int counter = 0;
             string line;
@@ -34,54 +43,74 @@ namespace PrioritizedList
 
             outputFile.WriteLine("<action name=\"The main heading\" >");
 
-            int prevLevel = 0;
-            int currLevel = 0;
+            int prevLevel = -1;
+            int currLevel = -1;
 
             while ((line = file.ReadLine()) != null)
             {
                 string indent = "";
 
-                string[] tokes = line.Split(' ');
-
-                string toke = tokes[0].TrimStart('\t');
+                string toke = line.TrimStart('\t').Split(' ')[0];
 
                 if (toke.Substring(0, 1).Equals("I"))
                 {
                     indent += "\t";
-                    currLevel = 1;
-                    
+                    currLevel = 0;
+
                 }
                 else if (Char.IsDigit(Convert.ToChar(toke.Substring(0, 1))))
                 {
                     indent += "\t\t\t";
-                    currLevel = 3;
-                    
+                    currLevel = 2;
+
                 }
                 else if (toke.Substring(0, 1).Equals("i"))
                 {
                     indent += "\t\t\t\t";
-                    currLevel = 4;
+                    currLevel = 3;
                 }
                 else
                 {
                     indent += "\t\t";
-                    currLevel = 2;
-                    
+                    currLevel = 1;
+
                 }
 
                 if (currLevel < prevLevel)
                 {
+                    while (elements.Count > 0 && ((Action)elements.Peek()).Level >= currLevel)
+                    {
+                        string popIndent = "\t";
+                        int popLevel = elements.Pop().Level;
+
+                        for (int i = 0; i < popLevel; i++)
+                            popIndent += "\t";
+
+                        outputFile.WriteLine(popIndent + "</action>");
+                    }
+                }
+                else if (currLevel == prevLevel)
+                {
+                    outputFile.WriteLine(indent + "</action>");
                     elements.Pop();
                 }
 
-                outputFile.WriteLine(indent+"<action name = \"" + line + "\" >");
+                outputFile.WriteLine(indent + "<action name = \"" + line + "\" >");
 
-                if (currLevel <= prevLevel)
-                    outputFile.WriteLine(indent + "</action>");
-
+                elements.Push(new Action(currLevel));
                 prevLevel = currLevel;
 
                 counter++;
+            }
+
+            for (int i = prevLevel; i > -1; i--)
+            {
+                string popIndent = "\t";
+
+                for (int j = 0; j < prevLevel; j++)
+                    popIndent += "\t";
+
+                outputFile.WriteLine("\t\t</action>");
             }
 
             outputFile.WriteLine("</action>");
@@ -90,7 +119,7 @@ namespace PrioritizedList
             outputFile.Close();
 
             System.Console.WriteLine("There were {0} lines.", counter);
-            // Suspend the screen.
+
             System.Console.ReadLine();
         }
 
@@ -99,7 +128,6 @@ namespace PrioritizedList
             try
             {
                 /* loading XML */
-
                 XmlWriterSettings settings = new XmlWriterSettings();
                 settings.Indent = true;
                 settings.NewLineOnAttributes = true;
@@ -117,7 +145,7 @@ namespace PrioritizedList
                     myWriter.Close();
                 }
             }
-                
+
             catch (Exception e)
             {
                 Console.WriteLine("Exception: {0}", e.ToString());

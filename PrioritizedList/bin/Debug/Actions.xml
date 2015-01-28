@@ -3,7 +3,8 @@
 	<action name = "I. This is a heading" >
 		<action name = "	A. This also" >
 			<action name = "		1. This too" >
-				<action name = "			i. small entry" />
+				<action name = "			i. small entry" >
+				</action>
 				<action name = "			ii. smaller" >
 				</action>
 				<action name = "			iii. smallest" >
@@ -18,5 +19,5 @@
 		</action>
 	</action>
 	<action name = "II. Finally" >
-	</action>
+		</action>
 </action>
