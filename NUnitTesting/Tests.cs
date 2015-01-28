@@ -50,6 +50,18 @@ namespace PrioritizedListTransformer
     
             Assert.IsTrue(passed);
         }
+
+        [Test]
+        public void ApplyXsltFile()
+        {
+            bool passed = false;
+
+            OutlineTransformer.Tools.TransformXML("..\\..\\..\\PrioritizedListTransformer\\Docs\\Actions.xml"
+                , "..\\..\\..\\PrioritizedListTransformer\\Docs\\Stylesheet.xslt"
+                , "..\\..\\..\\PrioritizedListTransformer\\Docs\\results.txt", ref passed);
+
+            Assert.IsTrue(passed);
+        }
     }
 
 }

@@ -118,7 +118,7 @@ namespace OutlineTransformer
 
         }
 
-        public static void TransformXML(string sXmlPath, string sXslPath)
+        public static void TransformXML(string sXmlPath, string sXslPath, string resultPath, ref bool passed)
         {
             try
             {
@@ -134,16 +134,19 @@ namespace OutlineTransformer
                     myXslTrans.Load(sXslPath);
                     /* creating Output Stream */
 
-                    XmlTextWriter myWriter = new XmlTextWriter("result.xml", null);
+                    XmlTextWriter myWriter = new XmlTextWriter(resultPath, null);
                     /* XML transformation */
                     myXslTrans.Transform(myXmlReader, null, myWriter);
                     myWriter.Close();
                 }
+
+                passed = true;
             }
 
             catch (Exception e)
             {
                 Console.WriteLine("Exception: {0}", e.ToString());
+                passed = false;
             }
         }
     }
