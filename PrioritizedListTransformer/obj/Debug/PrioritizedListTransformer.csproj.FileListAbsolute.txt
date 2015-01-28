@@ -1,9 +1,7 @@
 C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\PrioritizedListTransformer\bin\Debug\PrioritizedListTransformer.exe.config
 C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\PrioritizedListTransformer\bin\Debug\PrioritizedListTransformer.exe
 C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\PrioritizedListTransformer\bin\Debug\PrioritizedListTransformer.pdb
-C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\PrioritizedListTransformer\bin\Debug\Transformer.dll
 C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\PrioritizedListTransformer\bin\Debug\WatiN.Core.dll
-C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\PrioritizedListTransformer\bin\Debug\Transformer.pdb
 C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\PrioritizedListTransformer\bin\Debug\WatiN.Core.xml
 C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\PrioritizedListTransformer\obj\Debug\PrioritizedListTransformer.exe
 C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\PrioritizedListTransformer\obj\Debug\PrioritizedListTransformer.pdb

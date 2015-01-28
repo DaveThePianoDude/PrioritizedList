@@ -1,4 +1,0 @@
-C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\Transformer\bin\Debug\Transformer.dll
-C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\Transformer\bin\Debug\Transformer.pdb
-C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\Transformer\obj\Debug\Transformer.dll
-C:\Users\david.holland\Documents\Visual Studio 2013\Projects\PrioritizedListTransformer\Transformer\obj\Debug\Transformer.pdb
