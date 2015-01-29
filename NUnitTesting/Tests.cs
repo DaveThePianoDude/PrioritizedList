@@ -14,13 +14,22 @@ using OutlineTransformer;
 
 namespace PrioritizedListTransformer
 {
-    [TestFixture]
+    [TestFixture("outline.txt","Items.xml")]
     public class NUnitTests
     {
+        private string outlineFileName;
+        private string actionFileName;
+
+        public NUnitTests(string ofn, string afn)
+        {
+            this.outlineFileName = ofn;
+            this.actionFileName = afn;
+        }
+
         [Test]
         public void LoadOutlineFile()
         {
-            System.IO.StreamReader file = new System.IO.StreamReader("..\\..\\..\\PrioritizedListTransformer\\Docs\\outline.txt");
+            System.IO.StreamReader file = new System.IO.StreamReader("..\\..\\..\\PrioritizedListTransformer\\Docs\\" + outlineFileName);
 
             Assert.IsTrue(file != null);
         }
@@ -30,9 +39,9 @@ namespace PrioritizedListTransformer
         {
             bool passed = false;
 
-            OutlineTransformer.Tools.ConvertOutlineToXml("outline.txt", "Actions.xml");
+            OutlineTransformer.Tools.ConvertOutlineToXml(outlineFileName, actionFileName);
 
-            XDocument xdoc = XDocument.Load("..\\..\\..\\PrioritizedListTransformer\\Docs\\Actions.xml");
+            XDocument xdoc = XDocument.Load("..\\..\\..\\PrioritizedListTransformer\\Docs\\" + actionFileName);
 
             XmlSchemaSet schemas = new XmlSchemaSet();
 
@@ -56,7 +65,7 @@ namespace PrioritizedListTransformer
         {
             bool passed = false;
 
-            OutlineTransformer.Tools.TransformXML("..\\..\\..\\PrioritizedListTransformer\\Docs\\Actions.xml"
+            OutlineTransformer.Tools.TransformXML("..\\..\\..\\PrioritizedListTransformer\\Docs\\" + actionFileName
                 , "..\\..\\..\\PrioritizedListTransformer\\Docs\\Stylesheet.xslt"
                 , "..\\..\\..\\PrioritizedListTransformer\\Docs\\results.txt", ref passed);
 

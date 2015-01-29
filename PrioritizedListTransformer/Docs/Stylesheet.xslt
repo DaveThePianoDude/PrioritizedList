@@ -29,7 +29,8 @@
             </xsl:when>
             <xsl:when test="position( ) = last( ) and last( ) > 1">
               <xsl:text> and </xsl:text><xsl:value-of 
-                         select="@name"/><xsl:text>. </xsl:text
+                         select="@name"/>
+              <xsl:text>. </xsl:text>
             </xsl:when>
             <xsl:when test="last( ) = 1">
               <xsl:value-of select="@name"/>
