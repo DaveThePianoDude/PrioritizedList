@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <action name="The main heading" >
-	<action name = "I. This is a heading" >
-		<action name = "	A. This also" >
-			<action name = "		1. This too" >
-				<action name = "			i. small entry" >
+	<action name = "I. First Feature Description" >
+		<action name = "	A. First object's changes" >
+			<action name = "		1. File One changes" >
+				<action name = "			i. Function One" >
 				</action>
-				<action name = "			ii. smaller" >
+				<action name = "			ii. Function Two" >
 				</action>
-				<action name = "			iii. smallest" >
+				<action name = "			iii. Function Three" >
 				</action>
 			</action>
-			<action name = "		2.  This too baby." >
+			<action name = "		2.  File Two changes" >
 			</action>
 		</action>
-		<action name = "	B.  Second line." >
-			<action name = "		1. One" >
+		<action name = "	B.  Second object's changes" >
+			<action name = "		1. First set of changes" >
 			</action>
-			<action name = "		2. Two" >
-				<action name = "			i. Nice" >
+			<action name = "		2. Second set of changes" >
+				<action name = "			i. Function One" >
 				</action>
-				<action name = "			ii. Nicer!" >
+				<action name = "			ii. Function Two" >
 				</action>
 			</action>
-			<action name = "		3. Three" >
+			<action name = "		3. Third set of changes " >
 			</action>
-			<action name = "		4. Four" >
+			<action name = "		4. Fourth set of changes" >
 			</action>
 		</action>
-		<action name = "	C. Third" >
+		<action name = "	C. Third object's changes" >
 		</action>
 	</action>
-	<action name = "II. Finally" >
-		<action name = "	A. Once" >
-			<action name = "		1. Hey" >
+	<action name = "II. Second Feature Description" >
+		<action name = "	A. First object's changes" >
+			<action name = "		1. First file changes" >
 			</action>
-			<action name = "		2. Man" >
+			<action name = "		2. Second file" >
 			</action>
 		</action>
-		<action name = "	B. Twice" >
-			<action name = "		1. Rock" >
+		<action name = "	B. Second object" >
+			<action name = "		1. First file" >
 			</action>
-			<action name = "		2. And" >
+			<action name = "		2. Second file" >
 			</action>
-			<action name = "		3. Roll!" >
+			<action name = "		3. Third file" >
 		</action>
 		</action>
 		</action>

@@ -17,8 +17,6 @@
 </xsl:template>
    
 <xsl:template match="action">
-     <xsl:value-of select="@name"/><xsl:text> has no worries. </xsl:text>
-     <xsl:text>&#xa;&#xa;</xsl:text>
 </xsl:template>
      
 <xsl:template name="entails">

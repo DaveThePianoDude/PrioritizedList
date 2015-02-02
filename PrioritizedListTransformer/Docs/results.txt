@@ -1,48 +1,18 @@
-The main heading is the main action.I. This is a heading and II. Finally. 
+The main heading is the main action.I. First Feature Description and II. Second Feature Description. 
 
-I. This is a heading entails...  A. This also,  B.  Second line.,  and  C. Third. 
+I. First Feature Description entails...  A. First object's changes,  B.  Second object's changes,  and  C. Third object's changes. 
 
- A. This also entails...   1. This too and   2.  This too baby.. 
+ A. First object's changes entails...   1. File One changes and   2.  File Two changes. 
 
-  1. This too entails...    i. small entry,    ii. smaller,  and    iii. smallest. 
+  1. File One changes entails...    i. Function One,    ii. Function Two,  and    iii. Function Three. 
 
-   i. small entry has no worries. 
+ B.  Second object's changes entails...   1. First set of changes,   2. Second set of changes,   3. Third set of changes ,  and   4. Fourth set of changes. 
 
-   ii. smaller has no worries. 
+  2. Second set of changes entails...    i. Function One and    ii. Function Two. 
 
-   iii. smallest has no worries. 
+II. Second Feature Description entails...  A. First object's changes and  B. Second object. 
 
-  2.  This too baby. has no worries. 
+ A. First object's changes entails...   1. First file changes and   2. Second file. 
 
- B.  Second line. entails...   1. One,   2. Two,   3. Three,  and   4. Four. 
-
-  1. One has no worries. 
-
-  2. Two entails...    i. Nice and    ii. Nicer!. 
-
-   i. Nice has no worries. 
-
-   ii. Nicer! has no worries. 
-
-  3. Three has no worries. 
-
-  4. Four has no worries. 
-
- C. Third has no worries. 
-
-II. Finally entails...  A. Once and  B. Twice. 
-
- A. Once entails...   1. Hey and   2. Man. 
-
-  1. Hey has no worries. 
-
-  2. Man has no worries. 
-
- B. Twice entails...   1. Rock,   2. And,  and   3. Roll!. 
-
-  1. Rock has no worries. 
-
-  2. And has no worries. 
-
-  3. Roll! has no worries. 
+ B. Second object entails...   1. First file,   2. Second file,  and   3. Third file. 
 

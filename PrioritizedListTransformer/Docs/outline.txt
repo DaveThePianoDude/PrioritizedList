@@ -1,23 +1,23 @@
-I. This is a heading
-	A. This also
-		1. This too
-			i. small entry
-			ii. smaller
-			iii. smallest
-		2.  This too baby.
-	B.  Second line.
-		1. One
-		2. Two
-			i. Nice
-			ii. Nicer!
-		3. Three
-		4. Four
-	C. Third
-II. Finally
-	A. Once
-		1. Hey
-		2. Man
-	B. Twice
-		1. Rock
-		2. And
-		3. Roll!
+I. First Feature Description
+	A. First object's changes
+		1. File One changes
+			i. Function One
+			ii. Function Two
+			iii. Function Three
+		2.  File Two changes
+	B.  Second object's changes
+		1. First set of changes
+		2. Second set of changes
+			i. Function One
+			ii. Function Two
+		3. Third set of changes 
+		4. Fourth set of changes
+	C. Third object's changes
+II. Second Feature Description
+	A. First object's changes
+		1. First file changes
+		2. Second file
+	B. Second object
+		1. First file
+		2. Second file
+		3. Third file
